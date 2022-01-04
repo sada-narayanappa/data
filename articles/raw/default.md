@@ -1,1 +1,3 @@
-#This is a default MD file :)
+# DEFAULT‣
+
+DO NOT EDIT

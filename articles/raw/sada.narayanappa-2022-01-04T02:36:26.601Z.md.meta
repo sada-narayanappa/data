@@ -1,9 +1,9 @@
 {
-    "csrfmiddlewaretoken": "bLQFE8WVPw7d7Rw6bcSnTK9HgOzYxIoKGG4biPU3IMjwXojlN7lL2ApqZXugQhbi",
-    "X-CSRFToken": "bLQFE8WVPw7d7Rw6bcSnTK9HgOzYxIoKGG4biPU3IMjwXojlN7lL2ApqZXugQhbi",
+    "csrfmiddlewaretoken": "CWusSPdycQM4cljQMJVimLVC8NfafEZb7RIYwwbG56Yn2S65oEoGvBblRWasydMJ",
+    "X-CSRFToken": "CWusSPdycQM4cljQMJVimLVC8NfafEZb7RIYwwbG56Yn2S65oEoGvBblRWasydMJ",
     "auth": "gjjr3j28niraa7s3c0pa2j066totxlio",
     "user": "sada.narayanappa",
     "contents": "/opt/data/data/articles/raw/sada.narayanappa-2022-01-04T02:36:26.601Z.md",
-    "title": "TItle",
+    "title": "Introduction to options",
     "files": []
 }
