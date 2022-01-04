@@ -1,8 +1,8 @@
-# Title of your Article ‣
+# Title of your Article 
 ### one line summmary of what this is about
 
 It includes adding your latex to Markdown:
-
+‣
 $$ax^2+bx+c=0$$
 
 

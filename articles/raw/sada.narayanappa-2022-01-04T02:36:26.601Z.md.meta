@@ -1,8 +1,9 @@
 {
-    "csrfmiddlewaretoken": "pRXveGNac467CARMIdlLpIdR09NjwDGyQaYs0ZZFUtCX9rwSCwGFVTYzvUzS94UF",
-    "X-CSRFToken": "pRXveGNac467CARMIdlLpIdR09NjwDGyQaYs0ZZFUtCX9rwSCwGFVTYzvUzS94UF",
-    "auth": "nvoph2q8bjha9gdudeu0jx6q2tlsk8j5",
+    "csrfmiddlewaretoken": "bLQFE8WVPw7d7Rw6bcSnTK9HgOzYxIoKGG4biPU3IMjwXojlN7lL2ApqZXugQhbi",
+    "X-CSRFToken": "bLQFE8WVPw7d7Rw6bcSnTK9HgOzYxIoKGG4biPU3IMjwXojlN7lL2ApqZXugQhbi",
+    "auth": "gjjr3j28niraa7s3c0pa2j066totxlio",
     "user": "sada.narayanappa",
     "contents": "/opt/data/data/articles/raw/sada.narayanappa-2022-01-04T02:36:26.601Z.md",
+    "title": "TItle",
     "files": []
 }
