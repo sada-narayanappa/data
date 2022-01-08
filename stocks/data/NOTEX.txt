@@ -1,0 +1,6 @@
+# Run the following commands 
+
+getstocks.py
+01_prep_stocks.py
+
+echo "Time: $(TZ=MST date). Ran." >> /tmp/crontab.log

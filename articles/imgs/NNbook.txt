@@ -1,0 +1,413 @@
+Neural Networks Introduction
+Consider a simple function of predicting the house prices based on the size of the house. This is a simple function that finds a linear fit of the data and also a simple neural network that takes a size of the house and outputs the price.
+
+A simple network fits a function to points shown in cross marks. The resulting function is called RELU function (Rectified Linear Unit) which will be described later. However, the methods to fit the function to set of predictors is what NN does. The term deep learning refers to training deep neural networks which will be discussed later.
+
+If we have multiple features such as, size, #bedrooms, Zip code etc. then we may have lot more cells (or neurons).
+
+
+
+A Neural Network is a set of nodes that fits a function to predict output. 
+Notations
+
+Binary classification
+Binary classification is given an input, classify the data into one or other class. As an example: if we are given a set of images, classify them as pictures of cat or non-cats.
+Logistic regression
+Logistic regression  is used for classification problems. The term regression here seems to indicate otherwise. Model predicts a number between 0 and 1 and a threshold is used to compare the result to predict one or other depending upon if it is greater or lesser than the threshold. A threshold T (usually 0.5) which indicates if it the predicted number is less than threshold T then we predict one otherwise other class.
+
+Here we are restricting for two classes - however, later we show how it can be extended to show multiple classes.
+
+In Linear regression we had the hypothesis function  
+			               					(1) 
+
+We would like to interpret h as a probability function. As is, it is not a function that can do binary classification.
+Therefore if we consider the logit AKA log of odds where P is the probability. And X is the input:
+
+				g is a function that translates h to P the probability give X		
+
+Given X we want to compute the output  = P( y = 1 | X ) ==> Probability that y = 1 give X 
+
+Solving for P, we get:
+									
+
+Therefore, in Logistic Regression, the form of the hypothesis takes the form:
+	
+				g is some function that transforms linear equation to probability 
+
+
+
+The function g is called Logistic function or Sigmoid function.  Logistic or Sigmoid can be used interchangeably.
+
+It is shown on the left. When z >> 0 the function reaches 1, when z << 0, it reaches zero, when at 0, g(x) is 0.5.
+when z is +ve the term , therefore,  is ; and when z is -ve the denominator is > 2  and thus g will be < 0.5
+
+		
+
+
+In Linear regressions we had the cost function
+
+		sum of squares of residues We need to modify this because  is non-convex function for y in {0, 1}. If you plot it it will look wavy with no one max or minima. Therefore, we want a convex function so that we can gradient decent converge to global minimum.
+
+
+In Logistic Regression, given a X examples : 	
+Where  at least in the training example want it to be as close match as possible.
+
+
+We define the cost function for single training example:
+
+If  y is 1, then want  to be close to 1 anything less is incurred as cost
+ 
+If y is 0, then want   to be close to 0, otherwise cost is the difference.
+
+
+Since log of number in [0, 1] is negative, we take the negative log. The above equation can be combined:
+
+			when  is 0 first term goes away and similarly other term
+
+
+The cost function for the entire training set is:
+
+					(2)
+
+
+
+Now all that remains to be done is to find 𝜃 to minimize 𝐽(𝜃) that is convex so that the slope is zero (first derivate) is zero.
+
+We now have: 
+
+			Same as (2) above
+
+
+*NOTE* - We want to find  𝜃 that minimize the cost function. In order to find the minimum,
+We take the first order differentiation of the equation to be minimized 
+Find the roots from step (1) - Since Cost function is convex, there should be only one root.
+
+That is what we will do next,
+
+where is defined as follows:
+
+		 				(4)
+
+
+Detailed Derivation: Now, we show detailed derivation of equation (4).
+
+	
+
+Lets just consider and notice,
+	
+
+
+
+[ this used:  the 1's in numerator cancel, we used: ]
+
+Since our original cost function is the form of:
+
+	
+
+Plugging in the two simplified expressions above, we obtain
+
+	
+
+which can be simplified to:
+
+	
+
+where the second equality follows from
+
+
+
+[ we used ]
+
+All you need now is to compute the partial derivatives of (*)w.r.t. . 
+As
+
+	
+
+
+	
+
+Thus,
+								
+
+Once we know the derivative of the Cost function. Next step is to use it to find the parameters, 𝜃 that minimizes the cost function.
+Gradient Decent (GD)
+
+To recap, we have
+
+
+
+We can use the above equations in Gradient Descent  algorithm to find the optimal (𝜃, b) to minimize the cost function J(𝜃). The rationale is as follows. Any convex function would have a graph as shown below , if we plot :
+
+
+
+
+
+
+
+
+Procedure
+
+1. Initialize (𝜃, b) to any random value
+2. Compute the derivative as given in 2.2.3 
+3. Update 𝜃 as  where alpha is learning rate determines how big of a step we take each time.
+4. Continue until the error reaches acceptable limit.
+
+
+Why does this work. Let’s take an example as shown in the right side of the figure above. If the point is on the right side, the slope (or the derivative is +ve) therefore we subtract from 𝜃. On the other hand, if it is on the left of the minimum the slope is -ve and we move 𝜃 towards right. Therefore GD will move 𝜃 in the right direction to find minimum point.
+Rationale for Logistic Regression loss function.
+
+
+We want to interpret:
+
+		
+
+
+We can write both in one equation:
+
+						2.3.1
+
+when y is 0, P(Y/X) = ; similarly other case
+
+We want to maximize this across all examples:  P = 
+Maximizing the probability is equivalent to maximizing the log of the probability. Therefore,
+
+		2.3.2
+
+From 2.3.1, 
+
+We want to maximize P and minimize the loss that is -ve of P, therefore, we want to choose parameters that minimizes the cost of the function that can be does using maximum likelihood estimation methods. Therefore the final cost function from 2.3.2 averaged over all training examples is:
+
+					
+			
+												◼︎	
+	
+
+
+
+
+
+
+
+
+
+
+Derivatives
+Intuitive definition of derivative 
+Suppose if we have a function: 
+f(a) = 3a when plotted, it looks like in the figure as shown.
+Derivative is just a slope of the e=function evaluated at any point x.
+
+For example at x = 2, slope is height divided by width. Suppose if we take small width 0.001
+
+(6.0001 - 6.0003) / (2 - 2.0001) = 3. 
+For this function, slope is 3 wherever you take x.
+
+
+In another example, where slope is different at different points.
+It is shown in the example in the picture. At point a = 2, slope is 4, when a = 5, the slope is 10. In general for this slope or the derivative is 2a.
+
+
+
+
+
+
+
+As you can see, we took a small nudging at x of 0.001, but we want this to be infinitely small. In general:
+
+		
+
+Computation graphs 
+In order to compute the derivatives of the cost function, it gets complicated; therefore computation graphs helps to break down the complex functions to make it easier to compute derivates. It also helps to create automated derivation code. Let see an example.
+
+Suppose we have a function J(a,b,c) = 3 (a + b c), we want to find the J’ - derivative of J w.r.t. a,b,c. 
+
+Lets write this as:
+ u = bc
+ v = a + v
+J = 3v 
+
+We can write this as graph as shown here. 
+To find derivative of J w.r.t. a, b, c, first find the derivative of J w.r.t v, which is 3. 
+Next, we find J’ w.r.t u, we can do this as follows:
+
+ 	   	we already know  = 3; and  => 
+
+Similarly,  = 3
+
+Continuing this way, 
+
+		
+
+ 
+Logistic regression - Back propagation   
+Lets consider a Logistic regression with only two predictors
+ 
+
+
+ These are exactly same as before except we replace y-hat with a that stands for activation function. (also makes typing so much easy)
+
+
+
+Computation graph is
+
+
+
+
+
+
+
+
+To back propagate we need to know how to adjust w, w2 and b to minimize the loss. This means, we need to find derivative of Loss function w.r.t to w1, w2, b and use it adjust the weights to get to the minimum.
+
+From the computation graph,	 
+
+
+
+
+
+
+Similarly we get: 
+		
+
+In general the derivative of loss function will be multiplying corresponding (a-y)  with the predicator.
+With this we can implement back-propagation as follows:
+For one training example compute the following to adjust weights:
+ 
+	dz 	= 	(a - y) 
+	dw1 	= 	dz * w1
+	dw2 	= 	dz * w2
+	db 	= 	dz
+
+	# Update
+	w1 	= w1 - alpha * dw1
+	w2 	= w2 - alpha * dw2
+	b	= b - dz
+Repeat until error is minimized; Not a great algorithm. A complete example for m training example is shown below.
+Gradient Descent with loss function to adjust weights.  
+As show before the loss function for one training example. It so happens that for m training examples, we can use it compute the total cost function.
+
+
+
+This is one step - do this till satisfied
+
+
+
+
+
+
+
+
+Vectorization.  
+A mechanism to get rid of explicit for-loops. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes.  
+In python, arrays shape look like (5,) - they are called rank 1 arrays.
+
+A = np.random(5) creates a vector a.shape = (5,) => avoid using the rank 1 shaped vectors.
+
+
+Neural Networks
+A logistic regression (also a neural network with one node) looks like the figure.
+
+
+The inputs are passed in  and through back propagation, W is adjusted and refined to find the optimal values for W and b to minimize the cost function.
+
+
+A Neural Network may consists of more than one such node stacked, also possibly arranged in layers to create a complex network. Each layer will compute z and a and finally last layer will compute the loss function ℒ.
+
+
+
+
+A various types of Neural Network. A two layer network is shown. Two because, most times, input layer is not counted  as a layer.
+ 
+
+
+Computations of weights in NN.  
+Similar to logistic regression in forward propagation, for each cell we compute the activations Z1, Z2 etc. Think each cell as one logistic regression cell. The back propagation happens for each cells very similar to one cell logistic regression and it happens to every cell to back propagate.
+
+
+Activation Functions.  
+Sigmoid, tanh, RELU, Leaky RELU
+
+Sigmoid functions
+Sigmoid function that is shown that we have been using so far 
+
+
+tanh functions
+
+tanh function
+
+
+
+RELU functions
+
+Or Leaky RELU function, shown below
+
+
+
+
+
+
+
+
+Take aways.  
+Never use sigmoid in hidden layers except output layers
+If you are not sure what to use as activation for hidden layer, choose RELU
+Do not use Linear Activation function in hidden layer - it practically makes layers useless.
+Only place where linear activation function may be used is in output layer
+
+
+Implementation
+
+Keras implementation are in 01_NN-Keras.ipynb
+
+Sequence Models
+Examples 
+
+Notations
+
+x(i)<t> : input at time t		Tx : Length of input sequence 
+y(i)<t> : input at time t		Ty : Length of input sequence
+
+
+Also note that we have bi-directional RNN
+
+Calculations
+
+Types of RNN
+
+
+Language modeling
+Given a set of sentence, which sentence is more likely
+
+The apple and pair salad	ex: 	P = 3.2 
+The apple and pear salad		P = 5.7 <== this is more likely
+
+Vanishing/exploding gradient
+In a much deeper NN, then the gradient is difficult to propagate up. The errors in later step to affect the weights in earlier in the layer. Therefore outputs are influenced strongly influenced by local nodes.
+
+Vanishing gradients can cause the weights to almost becomes zero. Exploding gradients is where weights increase astronomically. Exploding gradients are easy to spot and easy to manage by gradient clipping. Vanishing does more things to do to handle.
+
+
+Gated Recurrent Unit (GRU)
+
+Long Short Term memory (LSTM)
+
+
+
+

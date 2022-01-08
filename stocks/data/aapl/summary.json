@@ -1,0 +1,11 @@
+{
+   "symbol": "AAPL",
+   "name": "Apple Inc",
+   "open": 172.88999938964844,
+   "high": 174.13999938964844,
+   "low": 171.03500366210938,
+   "price": 172.1699981689453,
+   "vol": 5233099,
+   "percent_change": -0.4164504732748782,
+   "trend": "/static/stocks/data/aapl/trend.png"
+}
