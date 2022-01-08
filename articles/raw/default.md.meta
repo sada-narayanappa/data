@@ -1,6 +1,6 @@
 {
-    "csrfmiddlewaretoken": "VrjC22FdzvbsDbfoB6kXlzIcrjqYfxBWqmx8GJDlsLnLtI2Dd1NlupYVaslgy6ou",
-    "X-CSRFToken": "VrjC22FdzvbsDbfoB6kXlzIcrjqYfxBWqmx8GJDlsLnLtI2Dd1NlupYVaslgy6ou",
+    "csrfmiddlewaretoken": "kKIS13wIMTjecwJ1kNlqPWRfkRw9BhQLPFWoFKuQF9vx23wgWIOOYM7Y30rrUQDj",
+    "X-CSRFToken": "kKIS13wIMTjecwJ1kNlqPWRfkRw9BhQLPFWoFKuQF9vx23wgWIOOYM7Y30rrUQDj",
     "auth": "gjjr3j28niraa7s3c0pa2j066totxlio",
     "user": "sada.narayanappa",
     "contents": "/opt/data/data/articles/raw/default.md",
