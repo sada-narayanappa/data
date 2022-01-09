@@ -27,7 +27,7 @@ def getkey(key='password'):
 
 #-----------------------------------------------------------------------------------
 '''
-This will read required symbols and saves them to data directory
+This will check if the file is older than some time
 '''
 def chk_recent(filename, elapsed=8*60*60 ):
     if (os.path.exists(filename)):
@@ -40,3 +40,29 @@ def chk_recent(filename, elapsed=8*60*60 ):
             return True;
         
     return False
+
+#-----------------------------------------------------------------------------------
+'''
+This will check if first file is newer than second file
+'''
+def chk_newer(filename1, filename2 ):
+    if not (os.path.exists(filename1) and os.path.exists(filename2)) :
+        return True
+    
+    dt1   = datetime.datetime.fromtimestamp(os.path.getmtime(filename1))
+    dt2   = datetime.datetime.fromtimestamp(os.path.getmtime(filename2))
+        
+    return dt1 < dt2
+#-----------------------------------------------------------------------------------
+def readfile(file, ret=None):
+    if not os.path.exists(file):
+        return ret
+    
+    with (open(file, "r")) as f: 
+        conts = f.read()
+    return conts
+
+# Example:
+#f1='/opt/data/data/stocks/data/aapl/news_raw.json'
+#f2='/opt/data/data/stocks/data/aapl/news.html'
+#chk_newer(f1, f2)
