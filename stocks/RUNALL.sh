@@ -7,5 +7,6 @@
 #
 /opt/data/data/stocks/getstocks.py
 /opt/data/data/stocks/01_prep_stocks.py
+/opt/data/data/stocks/getnews.py
 
 echo "Time: $(TZ=MST date). Ran." >> /tmp/crontab.log
