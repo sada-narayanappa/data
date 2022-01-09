@@ -18,7 +18,7 @@ This will read required symbols and saves them to data directory
 API_KEY, NEWS_KEY = getkey()
 
 
-def getNews(keywords, access_key = NEWS_KEY, limit=10, sources='bloomberg,yahoo,cnbc,cnn,reuters'):
+def getNews(keywords, access_key = NEWS_KEY, limit=10, sources='bloomberg,yahoo,cnbc,cnn,reuters,ft'):
     conn = http.client.HTTPConnection('api.mediastack.com')
     params = urllib.parse.urlencode({
         'access_key': access_key,
