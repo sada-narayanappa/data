@@ -52,7 +52,7 @@ def getNewsAll(access_key = NEWS_KEY, check_recent=4 * 60 *60):
             print(f"News file exist: {newsfile} - {keys}")
             continue
 
-        print(f"Trying to get news for: {keys}")
+        print(f"Trying to create news.html for: {keys}")
         ret = getNews(keys, access_key)
         with open(newsfile, "w") as f:
             f.write(ret)
@@ -132,7 +132,7 @@ def prepNews(symb='aapl', check_recent=60*60):
     if not os.path.exists(newsjson):
         print(f"-{newsjson} does not exist!!")
         
-    if chk_newer(newsfile, newsjson): # less than an hour
+    if chk_newer(newsfile, newsjson): 
         print(f"-{newsfile} already created :;!!")
         return;
     
@@ -147,7 +147,7 @@ def prepNews(symb='aapl', check_recent=60*60):
         f.write(ret)
 #-----------------------------------------------------------------------------------
 def main():
-    df = getNewsAll(access_key = NEWS_KEY, check_recent=4 * 60 *60)
+    df = getNewsAll(access_key = NEWS_KEY, check_recent=1 * 60 *60)
     for r in df.iterrows():
         symb, name = r[1]['symbol'].lower(), r[1]['name']
         prepNews(symb)

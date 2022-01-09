@@ -52,7 +52,7 @@ def chk_newer(filename1, filename2 ):
     dt1   = datetime.datetime.fromtimestamp(os.path.getmtime(filename1))
     dt2   = datetime.datetime.fromtimestamp(os.path.getmtime(filename2))
         
-    return dt1 < dt2
+    return dt1 >= dt2
 #-----------------------------------------------------------------------------------
 def readfile(file, ret=None):
     if not os.path.exists(file):
