@@ -56,7 +56,7 @@ def getNewsAll(access_key = NEWS_KEY, check_recent=4 * 60 *60):
         ret = getNews(keys, access_key)
         rej = json.loads(ret)
         dat = rej.get("data", None)
-        if (not dat or len(data) < 1):
+        if (not dat or len(dat) < 1):
             print(f"Did not get any data for: {keys} :(")
         else:    
             with open(newsfile, "w") as f:
