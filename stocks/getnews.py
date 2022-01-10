@@ -54,8 +54,13 @@ def getNewsAll(access_key = NEWS_KEY, check_recent=4 * 60 *60):
 
         print(f"Trying to create news.html for: {keys}")
         ret = getNews(keys, access_key)
-        with open(newsfile, "w") as f:
-            f.write(ret)
+        rej = json.loads(ret)
+        dat = rej.get("data", None)
+        if (not dat or len(data) < 1):
+            print(f"Did not get any data for: {keys} :(")
+        else:    
+            with open(newsfile, "w") as f:
+                f.write(ret)
             
     return df;
 
@@ -84,9 +89,7 @@ def formatNews(data):  # d is a json
     <span title='{d1['description']}'><h3>{d1['title']}</h3></span>
     </a>
 </div>
-<div class="col-md-1">
-</div>
-<div class="col-md-5"  style="border-radius: 5%;background: #f0f0f0;min-height:148px; margin:10px">
+<div class="col-md-6"  style="border-radius: 5%;background: #f0f0f0;min-height:148px; margin:10px">
     {img2}<br/>
     {d2['published_at']} {d2['source']} <br/>
 
@@ -102,21 +105,20 @@ def formatNews(data):  # d is a json
     o= '<br/><div class="row" style="padding:10px;">\n'
     for i in range(2, 5):
         d = data[i]
-        i = ":::"
+        im = ":::"
         if ( d['image'] and d['image'].lower() != 'none'):
-            i = f'<img style="border-radius: 5%;" src={d["image"]} width=100%>'
+            im = f'<img style="border-radius: 5%;" src={d["image"]} width=100%>'
 
+        wclass = "col-md-3" if i == 2 else "col-md-4"
         t = f'''
-        <div class="col-md-3" style="border-radius: 5%;border: 1px solid #c0c0c0;min-height:148px;margin:10px">
-            {i}<br/>
+        <div class="{wclass}" style="border-radius: 5%;border: 1px solid #c0c0c0;min-height:148px;margin:10px">
+            {im}<br/>
             {d['published_at']} {d['source']} <br/>
 
             <a href="{d['url']}" target=new>
             <span title='{d['description']}'><h4>{d['title']}</h4></span>
             </a>
         </div>
-        <div class="col-md-1"></div>
-
         '''
         o += t
     o += '</div>'
@@ -155,7 +157,7 @@ def main():
 #-----------------------------------------------------------------------------------
 if __name__ == '__main__':
     if (not inJupyter()):
-        t1      = datetime.datetime.now()
+        t1 = datetime.datetime.now()
         main()
         t2 = datetime.datetime.now()
         print(f"All Done in {str(t2-t1)} : {t2} ***")

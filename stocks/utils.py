@@ -46,7 +46,9 @@ def chk_recent(filename, elapsed=8*60*60 ):
 This will check if first file is newer than second file
 '''
 def chk_newer(filename1, filename2 ):
-    if not (os.path.exists(filename1) and os.path.exists(filename2)) :
+    if not (os.path.exists(filename1)) :
+        return False
+    if not os.path.exists(filename2) :
         return True
     
     dt1   = datetime.datetime.fromtimestamp(os.path.getmtime(filename1))
