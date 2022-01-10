@@ -11,6 +11,8 @@ from colabexts.jcommon import *
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.fundamentaldata import FundamentalData
 import yfinance as yf
+
+sys.path.append("/opt/data/data/stocks/")
 from utils import *
 
 

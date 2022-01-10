@@ -1,11 +1,11 @@
 {
    "symbol": "GLD",
-   "name": "",
+   "name": "GOLD stock prices",
    "open": 167.3699951171875,
    "high": 168.00999450683594,
    "low": 166.86000061035156,
    "price": 167.75,
-   "vol": 335929,
-   "percent_change": 0.2270448072525974,
+   "vol": 5326575,
+   "percent_change": 0.454083779752674,
    "trend": "/static/stocks/data/gld/trend.png"
 }

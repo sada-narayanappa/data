@@ -1,11 +1,11 @@
 {
    "symbol": "V",
    "name": "Visa Inc",
-   "open": 217.30999755859372,
+   "open": 217.0,
    "high": 220.1999969482422,
    "low": 215.63999938964844,
    "price": 216.97999572753903,
    "vol": 305521,
-   "percent_change": -0.1518576387474803,
+   "percent_change": -2.5253475909958403,
    "trend": "/static/stocks/data/v/trend.png"
 }

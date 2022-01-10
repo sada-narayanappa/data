@@ -11,13 +11,18 @@ from colabexts.jcommon import *
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.fundamentaldata import FundamentalData
 import csv, requests
-
 mpl.use('Agg')
 
+sys.path.append("/opt/data/data/stocks/")
+from utils import *
+
 #-----------------------------------------------------------------------------------
-def create_sparkline(path, df5):
+# df5 => prices for the last day - in hour or minutes granularity
+# pclose => previous day close
+#
+def create_sparkline(path, df5, pclose=None):
     ser = df5.close.values[::-1]
-    popen = df5.iloc[-1].open
+    popen = pclose or df5.iloc[-1].open
     
     fig=plt.figure(figsize=(2,1))
     plt.plot(ser, c= 'g')
@@ -53,6 +58,7 @@ def processfiles(symbol='aapl', base='/opt/data/data/stocks/data/'):
     df2.columns = ['timestamp'] + [f.lower() for f in df2.columns[1:]]
     df2['timestamp'] = pd.to_datetime(df2['timestamp'] ).dt.tz_convert('UTC')
     
+    df4 = df2
     if os.path.exists(file1) and os.path.exists(file2):
         df1 = pd.read_csv(file1)
         df2.columns = df1.columns
@@ -69,14 +75,20 @@ def processfiles(symbol='aapl', base='/opt/data/data/stocks/data/'):
 #-----------------------------------------------------------------------------------
 def summarize(symbol = 'aapl', base = '/opt/data/data/stocks/data/'):
     df2, df4 = processfiles(symbol)
-    if ( df2 is None):
+    if ( df2 is None or len(df2) < 1):
         print(f"Could not summarize!! for {symbol}")
         return
     
     path   = f'{base}{symbol}'
     
+    #-1: get previous day close 
+    pdayDF = df4[df4.timestamp < str(df4.iloc[0][0].date())]
+    pclose = None
+    if ( len(pdayDF) >= 1):
+        pclose = pdayDF.iloc[0]['close']
+    
     #0. Create a sparkline
-    create_sparkline(path, df2)
+    create_sparkline(path, df2, pclose)
     
     #1. Read fundamentals data if available
     fundms = path+"/fundamentals.json"
@@ -87,7 +99,9 @@ def summarize(symbol = 'aapl', base = '/opt/data/data/stocks/data/'):
 
     # Read and get high/low etc.
     popen, high, low, price, vol = df2.open.values[-1], max(df2.high), min(df2.low), df2.close.values[0], max(df2.volume)
-    prcnt_change = (price-popen)/popen*100
+    pclose = pclose or popen
+    
+    prcnt_change = (price-pclose)/popen*100
     
     stats=f'''{{
     "symbol": "{symbol.upper()}", "name": "{fundamentals.get('Name','')}",
@@ -102,14 +116,7 @@ def summarize(symbol = 'aapl', base = '/opt/data/data/stocks/data/'):
         
     return df2, df4, stats
 
-#-----------------------------------------------------------------------------------
-def readfile(file, ret=None):
-    if not os.path.exists(file):
-        return ret
-    
-    with (open(file, "r")) as f: 
-        conts = f.read()
-    return conts
+
 #-----------------------------------------------------------------------------------
 def create_list(base = "/opt/data/data/stocks/data/"):
     syms = f'{base}stocks_list.csv'
