@@ -1,11 +1,11 @@
 {
    "symbol": "FB",
    "name": "Meta Platforms Inc.",
-   "open": 332.25,
-   "high": 336.95318603515625,
-   "low": 329.4601135253906,
-   "price": 331.7900085449219,
-   "vol": 467895,
-   "percent_change": -0.2016528081499186,
+   "open": 325.3099975585937,
+   "high": 326.19000244140625,
+   "low": 319.54998779296875,
+   "price": 322.5201110839844,
+   "vol": 803485,
+   "percent_change": -2.84955549647563,
    "trend": "/static/stocks/data/fb/trend.png"
 }
