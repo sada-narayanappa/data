@@ -2,10 +2,10 @@
    "symbol": "MSFT",
    "name": "Microsoft Corporation",
    "open": 309.4849853515625,
-   "high": 310.010009765625,
+   "high": 314.7200012207031,
    "low": 304.69000244140625,
-   "price": 307.08990478515625,
+   "price": 314.0899963378906,
    "vol": 1675793,
-   "percent_change": -2.2456970592446486,
+   "percent_change": 0.016154689324850674,
    "trend": "/static/stocks/data/msft/trend.png"
 }
