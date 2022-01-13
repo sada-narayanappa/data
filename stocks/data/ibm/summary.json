@@ -1,11 +1,11 @@
 {
    "symbol": "IBM",
    "name": "International Business Machines Corporation",
-   "open": 134.47000122070312,
-   "high": 136.1999969482422,
-   "low": 133.3800048828125,
-   "price": 135.0,
-   "vol": 172404,
-   "percent_change": 0.12642224916839975,
+   "open": 133.25,
+   "high": 134.47000122070312,
+   "low": 131.3699951171875,
+   "price": 133.58999633789062,
+   "vol": 155855,
+   "percent_change": 0.5403349627696964,
    "trend": "/static/stocks/data/ibm/trend.png"
 }
