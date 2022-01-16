@@ -1,11 +1,11 @@
 {
    "symbol": "AMZN",
    "name": "Amazon.com Inc",
-   "open": 3331.5,
-   "high": 3337.56005859375,
-   "low": 3288.340087890625,
-   "price": 3304.139892578125,
-   "vol": 112639,
-   "percent_change": -0.09305440257766116,
+   "open": 3203.0,
+   "high": 3245.0,
+   "low": 3196.010009765625,
+   "price": 3242.760009765625,
+   "vol": 126430,
+   "percent_change": 0.5769594057329004,
    "trend": "/static/stocks/data/amzn/trend.png"
 }
