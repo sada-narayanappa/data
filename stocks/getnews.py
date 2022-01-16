@@ -74,14 +74,14 @@ def formatNews(data):  # d is a json
         
     img1, img2 = "", ""
     if ( d1['image'] and d1['image'].lower() != 'none'):
-        img1 = f'<img style="border-radius: 5%;" src={d1["image"]} width=100%>'
+        img1 = f'<img style="border-radius: 7px;" src={d1["image"]} width=100%>'
     if ( d2['image'] and d2['image'].lower() != 'none'):
-        img2 = f'<img style="border-radius: 5%;" src={d2["image"]} width=100%>'
+        img2 = f'<img style="border-radius: 7px;" src={d2["image"]} width=100%>'
 
     
     html = f'''
 <div class="row">
-<div class="col-md-5" style="border-radius: 5%;background: #f0f0f0;min-height:148px;margin:10px">
+<div class="col-md-5" style="border-radius: 7px;background: #f0f0f0;min-height:148px;margin:10px">
     {img1}<br/>
     {d1['published_at']} {d1['source']} <br/>
 
@@ -89,7 +89,7 @@ def formatNews(data):  # d is a json
     <span title='{d1['description']}'><h3>{d1['title']}</h3></span>
     </a>
 </div>
-<div class="col-md-6"  style="border-radius: 5%;background: #f0f0f0;min-height:148px; margin:10px">
+<div class="col-md-6"  style="border-radius: 7px;background: #f0f0f0;min-height:148px; margin:10px">
     {img2}<br/>
     {d2['published_at']} {d2['source']} <br/>
 
@@ -103,15 +103,15 @@ def formatNews(data):  # d is a json
         return html
 
     o= '<br/><div class="row" style="padding:10px;">\n'
-    for i in range(2, 5):
+    for i in range(2, min(20, len(data)) ) :
         d = data[i]
         im = ":::"
         if ( d['image'] and d['image'].lower() != 'none'):
-            im = f'<img style="border-radius: 5%;" src={d["image"]} width=100%>'
+            im = f'<img style="border-radius: 7px;" src={d["image"]} width=100%>'
 
         wclass = "col-md-3" if i == 2 else "col-md-4"
         t = f'''
-        <div class="{wclass}" style="border-radius: 5%;border: 1px solid #c0c0c0;min-height:148px;margin:10px">
+        <div class="{wclass}" style="border-radius: 7px;border: 1px solid #c0c0c0;min-height:148px;margin:10px">
             {im}<br/>
             {d['published_at']} {d['source']} <br/>
 

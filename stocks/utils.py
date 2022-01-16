@@ -37,6 +37,10 @@ def getkey(key='password'):
 #-----------------------------------------------------------------------------------
 '''
 This will check if the file is older than some time
+return 
+
+TRUE  => if file is less than age (elapsed)
+FALSE => if file is older than age compared to current time
 '''
 def chk_recent(filename, elapsed=8*60*60 ):
     if (os.path.exists(filename)):
