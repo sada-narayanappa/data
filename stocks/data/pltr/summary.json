@@ -1,11 +1,11 @@
 {
    "symbol": "PLTR",
    "name": "Palantir Technologies Inc",
-   "open": 15.9399995803833,
-   "high": 16.24850082397461,
-   "low": 15.619999885559082,
-   "price": 16.010000228881836,
-   "vol": 1498861,
-   "percent_change": 1.4358961129207394e-06,
+   "open": 15.449999809265137,
+   "high": 15.75,
+   "low": 14.920100212097168,
+   "price": 14.970000267028809,
+   "vol": 2520873,
+   "percent_change": -6.731389940519744,
    "trend": "/static/stocks/data/pltr/trend.png"
 }
