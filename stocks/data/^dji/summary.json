@@ -1,11 +1,11 @@
 {
    "symbol": "^DJI",
    "name": "",
-   "open": 35095.73828125,
-   "high": 35333.55078125,
-   "low": 34799.078125,
-   "price": 35089.73828125,
-   "vol": 6869033,
-   "percent_change": 99.54324938624914,
+   "open": 33579.75,
+   "high": 33579.75,
+   "low": 32806.1484375,
+   "price": 32817.37890625,
+   "vol": 10138014,
+   "percent_change": 97.27016700913497,
    "trend": "/static/stocks/data/^dji/trend.png"
 }

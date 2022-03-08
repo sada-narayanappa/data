@@ -1,11 +1,11 @@
 {
    "symbol": "PSX",
    "name": "Phillips 66",
-   "open": 88.05000305175781,
-   "high": 89.5,
-   "low": 87.9000015258789,
-   "price": 88.83999633789062,
-   "vol": 91445,
-   "percent_change": 1.8398594909058152,
+   "open": 85.22000122070312,
+   "high": 85.95500183105469,
+   "low": 82.37000274658203,
+   "price": 82.5999984741211,
+   "vol": 131415,
+   "percent_change": -1.994838654691206,
    "trend": "/static/stocks/data/psx/trend.png"
 }
