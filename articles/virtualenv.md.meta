@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "RmLmlUzMcwclNMOiDO5DDZIlG8ubmE7wd6i26L0RxjxTZtoPo7hTiRnzU9kpmtrO",
+    "X-CSRFToken": "RmLmlUzMcwclNMOiDO5DDZIlG8ubmE7wd6i26L0RxjxTZtoPo7hTiRnzU9kpmtrO",
+    "auth": "wzcnwkb3v6btad8g4socp55tbvsbd0re",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/virtualenv.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}
