@@ -1,11 +1,11 @@
 {
    "symbol": "GOOGL",
    "name": "Alphabet Inc",
-   "open": 2629.760009765625,
-   "high": 2634.699951171875,
-   "low": 2525.89990234375,
-   "price": 2527.570068359375,
-   "vol": 76054,
-   "percent_change": -4.204183318251868,
+   "open": 2669.77001953125,
+   "high": 2675.909912109375,
+   "low": 2592.6298828125,
+   "price": 2597.409912109375,
+   "vol": 59456,
+   "percent_change": -1.9170223471013128,
    "trend": "/static/stocks/data/googl/trend.png"
 }
