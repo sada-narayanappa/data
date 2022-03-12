@@ -1,0 +1,12 @@
+#pipi -r requirements.txt 
+pipi transformers
+pipi keras 
+pipi tensorflow 
+pipi datasets
+pipi numpy 
+pipi torch 
+pipi kaldialign
+pipi colabexts
+pipi alpha_vantage
+pipi yfinance
+pipi ruamel-yaml
