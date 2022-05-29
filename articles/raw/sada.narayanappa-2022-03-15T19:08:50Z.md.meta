@@ -1,0 +1,9 @@
+{
+    "csrfmiddlewaretoken": "1FDdVgiKoOVby8Dwjb4Gay1p8uq1IQl9vgaGcJyg9cHi13edDTUyteSFBaRgSxRg",
+    "X-CSRFToken": "1FDdVgiKoOVby8Dwjb4Gay1p8uq1IQl9vgaGcJyg9cHi13edDTUyteSFBaRgSxRg",
+    "auth": "20kd1udkyn93pkdhj4ezokrwxh9om4a4",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data/data/articles/raw/sada.narayanappa-2022-03-15T19:08:50Z.md",
+    "title": "Install Postgres and PostGIS",
+    "files": []
+}
