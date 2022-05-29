@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "1H28XchUJ6GsZQ8T5BvrQOCRhvG1StaZ45jqPOTOo2F9A6K3MXy7ee8ofpOgj2N9",
+    "X-CSRFToken": "1H28XchUJ6GsZQ8T5BvrQOCRhvG1StaZ45jqPOTOo2F9A6K3MXy7ee8ofpOgj2N9",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/06_lrimpl.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

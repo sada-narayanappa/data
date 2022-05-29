@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "MK6Fgs2vPbWstccXDMaWCnbuNxsPmeknP8nX84Epu7V94sO7k8dC0NH1LrA4NNXx",
+    "X-CSRFToken": "MK6Fgs2vPbWstccXDMaWCnbuNxsPmeknP8nX84Epu7V94sO7k8dC0NH1LrA4NNXx",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/07_vect.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

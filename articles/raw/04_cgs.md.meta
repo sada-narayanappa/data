@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "7rNnBVKYIY6nxOyhOqbOiOQc1GX7mDVVaP4FtxmSnU5484arvMeuGemJZA5mNcy5",
+    "X-CSRFToken": "7rNnBVKYIY6nxOyhOqbOiOQc1GX7mDVVaP4FtxmSnU5484arvMeuGemJZA5mNcy5",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/04_cgs.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "Q24OApeVJkZTunO73NoxuWH4quwPVrckTql6s1QPogYA5DqhK9rdSmdBooE4m0Pu",
+    "X-CSRFToken": "Q24OApeVJkZTunO73NoxuWH4quwPVrckTql6s1QPogYA5DqhK9rdSmdBooE4m0Pu",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/00_time-series.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

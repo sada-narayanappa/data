@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "mC3dPWXQl53ZbdXQWo5SrqGTT0WZP7ECp0kvHyzK012GMtz0DK8yPQcqRU4egGhM",
+    "X-CSRFToken": "mC3dPWXQl53ZbdXQWo5SrqGTT0WZP7ECp0kvHyzK012GMtz0DK8yPQcqRU4egGhM",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/Preliminaries.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

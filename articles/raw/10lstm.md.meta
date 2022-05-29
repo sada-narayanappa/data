@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "ZTojtANOmq559elau9zEM3fMSUVjs96K2hFBlcpI1m4MKuXkbvCkatLjQO3yTIJU",
+    "X-CSRFToken": "ZTojtANOmq559elau9zEM3fMSUVjs96K2hFBlcpI1m4MKuXkbvCkatLjQO3yTIJU",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/10lstm.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "RKhsoDBulYJnRpMLcSkobVqOnt99G2GxU8yKgfdo0UI4sFoVTen4zlWllnho7BjH",
+    "X-CSRFToken": "RKhsoDBulYJnRpMLcSkobVqOnt99G2GxU8yKgfdo0UI4sFoVTen4zlWllnho7BjH",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/LSTM.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

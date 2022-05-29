@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "yYWNXASFKOuQDvuIN9KqU0AYT3yyXrsbBmd5PcuzpKtxeL6SuvN6iq6vRXGNo05l",
+    "X-CSRFToken": "yYWNXASFKOuQDvuIN9KqU0AYT3yyXrsbBmd5PcuzpKtxeL6SuvN6iq6vRXGNo05l",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/sada.narayanappa/nnfront.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

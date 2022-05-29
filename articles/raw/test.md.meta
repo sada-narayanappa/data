@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "peAUTh2snKj4rAgrsKdxds2oHXb9kcZ4sCRcLTEm2GiL2QSB96gdBSyVFRjoLLCe",
+    "X-CSRFToken": "peAUTh2snKj4rAgrsKdxds2oHXb9kcZ4sCRcLTEm2GiL2QSB96gdBSyVFRjoLLCe",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/test.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}

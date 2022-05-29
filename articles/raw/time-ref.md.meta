@@ -1,0 +1,11 @@
+{
+    "base": "/opt/data//uploaded/",
+    "csrfmiddlewaretoken": "HYi90MB9rrN2fyXBVNjhuIDMxrPmtRJ8KmzrSod36nMJQOzLC9mXS89jvlXBUqmi",
+    "X-CSRFToken": "HYi90MB9rrN2fyXBVNjhuIDMxrPmtRJ8KmzrSod36nMJQOzLC9mXS89jvlXBUqmi",
+    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "user": "sada.narayanappa",
+    "contents": "/opt/data//uploaded/sada.narayanappa/time-ref.md",
+    "public": "true",
+    "collaborators": "Collaborators: N/A ",
+    "files": []
+}
