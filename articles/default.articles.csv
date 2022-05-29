@@ -1,12 +1,1 @@
-name,title
-
-default.md, 'Default - DO NOT EDIT'
-sada.narayanappa-2022-01-04T05:47:34.800Z.md, 'Binomial trees in option pricing'
-sada.narayanappa-2022-01-04T02:36:26.601Z.md, 'Introduction to options'
-sada.narayanappa-2022-01-04T16:40:11.083Z.md, 'Data Science Interview Questions '
-sada.narayanappa-2022-01-04T18:03:24.092Z.md, 'Discriminative and Generative Models in Machine Learning'
-sada.narayanappa-2022-01-07T03:38:11.921Z.md, 'SSH tunnel - how to create a tunnel'
-virtualenv.md, 'Virtual Environments'
-sada.narayanappa-2022-03-15T19:08:50Z.md, 'Install Postgres and PostGIS'
-AIMLDSresources.md, 'AI/ML Learning resources'
-sada.narayanappa-2022-05-28T13:52:45Z.md, 'Leadership Communication '
+name, title
