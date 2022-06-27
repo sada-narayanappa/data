@@ -55,4 +55,5 @@ This will list all the installed packages on global environment
 ## References
 [1] https://realpython.com/installing-python/#how-to-install-python-on-macos
 [2] Anaconda https://www.anaconda.com/products/individual
-[3] https://www.youtube.com/watch?v=N5vscPTWKOk
+[3] https://www.youtube.com/watch?v=N5vscPTWKOk‣
+[4] https://www.youtube.com/watch?v=x9Hd2BmHt1o

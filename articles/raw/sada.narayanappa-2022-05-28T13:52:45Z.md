@@ -1,7 +1,7 @@
 # Creating a Vision and Communicating 
 
-<br><br>‣
-Great leaders are savvy in creating a vision and then sharing it, but they are not all born that way. Unfortunately, many management training programs don’t sufficiently emphasize leadership development, but instead focus on day-to-day tasks. This article takes a look at how creating a vision and then communicating it is the foundation of leadership and contributes to the makeup of a truly great leader.
+
+Great leaders are savvy in creating a vision and then sharing it, but they are not all born that way. Unfortunately, many management training programs don’t sufficiently emphasize leadership development, but instead focus on day-to-day tasks. This article takes a look at how creating a vision and then communicating it is the foundation of leadership and contributes to the makeup of a truly great leader.‣
 
 Today’s business climate of outsourcing, in-sourcing, virtual teams, and ROI-driven objectives can leave a manager at any level feeling powerless. Yet, we often see examples of those who can elicit unwavering support from their teams, driving highly effective projects, and getting the best performance from employees despite ever-increasing workloads. What is it about these individuals that makes them stand out as great leaders? Generally, the answer is the difference between a strict management model and one that includes basic principals of leadership. There are recognizable characteristics in great leaders and simple strategies anyone can adopt to improve employee performance and change the work environment for the better.
 

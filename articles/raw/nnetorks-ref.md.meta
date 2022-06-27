@@ -1,11 +1,9 @@
 {
-    "base": "/opt/data//uploaded/",
-    "csrfmiddlewaretoken": "TfzUf4n067faO4FbiVcS0piD1OalFZS3WDQc7GZUL3eRpkhlZhfyoPOaZIiA6yvd",
-    "X-CSRFToken": "TfzUf4n067faO4FbiVcS0piD1OalFZS3WDQc7GZUL3eRpkhlZhfyoPOaZIiA6yvd",
-    "auth": "2hhloe8vg9ffyk1msxgt3knj0988uwhz",
+    "csrfmiddlewaretoken": "Gv88eWK5IgsNGHcip1IsaedNd12v4KhelrMcyFKLeCmPYqgt9A2IuB2OolmyVIJv",
+    "X-CSRFToken": "Gv88eWK5IgsNGHcip1IsaedNd12v4KhelrMcyFKLeCmPYqgt9A2IuB2OolmyVIJv",
+    "auth": "2d70pnc5ma1afyqi4qahyad9ahsiyy49",
     "user": "sada.narayanappa",
-    "contents": "/opt/data//uploaded/sada.narayanappa/nnetorks-ref.md",
-    "public": "true",
-    "collaborators": "Collaborators: N/A ",
+    "contents": "/opt/data/data/articles/raw/nnetorks-ref.md",
+    "title": "References ",
     "files": []
 }
