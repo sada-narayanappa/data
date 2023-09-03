@@ -1,5 +1,5 @@
 # Data Science Tools
-### Data Science tools - setting up your Environment
+### Data Science tools - setting up your Environment‣
 
 ---
 
@@ -10,7 +10,7 @@
 
 > On windows
 1. install WSL, wsl2 - See: https://www.youtube.com/watch?v=j_fd0SApJD0
-2. Install anaconda - See: https://www.geospaces.org/blogs/view_article1.html/?viewid=sada.narayanappa-2022-06-27T19:31:46Z.md‣
+2. Install anaconda - See: https://www.geospaces.org/blogs/view_article1.html/?viewid=sada.narayanappa-2022-06-27T19:31:46Z.md
 
 ---
 

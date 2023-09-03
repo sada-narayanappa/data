@@ -1,11 +1,11 @@
 {
    "symbol": "NVDA",
    "name": "NVIDIA Corporation",
-   "open": 173.1199951171875,
-   "high": 173.3000030517578,
-   "low": 166.2550048828125,
-   "price": 170.69000244140625,
-   "vol": 1115695,
-   "percent_change": -0.32924998536876177,
+   "open": 160.25999450683594,
+   "high": 163.57000732421875,
+   "low": 160.0500030517578,
+   "price": 160.6300048828125,
+   "vol": 912664,
+   "percent_change": 16.485714331960455,
    "trend": "/static/stocks/data/nvda/trend.png"
 }

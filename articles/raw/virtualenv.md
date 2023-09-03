@@ -11,7 +11,7 @@ Each option has increasing amount of housekeeping and extra care but offers incr
 
 I will explain each of the options in short summary. 
 
-## Just plain python environment installed on the machine
+## Disadvantage of default python environment
 This option is most easiest. Just install python on your system using [1] or 
 [2]. Now, you can install the packages using pip or conda and use the system installation for all your development.
 
@@ -30,28 +30,43 @@ Enough said. Next immediate easiest way to avoid these conflicts are to use the 
 
 ## Virtual Environment
 
-It is way to isolate different projects and conflicitng dependencies.
+*(DO NOT USE virtualenv instead use vnev)*
 
-You must have virutalenv installed on your machine. If it is not installed run the following command to install it.
+virtual environment isolates different projects and manage dependencies.
 
+### Install Python On Mac
+> `brew install python@3.9` # OR `brew install python@3.8`
+.
+.
+To list all installed python versions
+	`brew list | grep python`
+.
+.
+**OUTPUT**:  	
 ```
-pip install virtualenv
+      148:python@3.10
+      149:python@3.8
+      150:python@3.9
 ```
-Immediately run
-```
-pip list
-```
-This will list all the installed packages on global environment 
+.
+Then you can use `python3.9`
 
+#### Create virtual environment using venv
 
+>\# create virtual environment
+`python -m venv ~/venv/py39 `
+\#
+\# active by creating alias
+\#
+`source ~/venv/py39/bin/activate`
+\# OR create alias in your .aliases
+`alias py39='source ~/venv/py39/bin/activate'`
+py39
+\#
+\# To deactivate type
+`deactivate`
 
-
-
-
-
-
-
-
+---
 ## References
 [1] https://realpython.com/installing-python/#how-to-install-python-on-macos
 [2] Anaconda https://www.anaconda.com/products/individual

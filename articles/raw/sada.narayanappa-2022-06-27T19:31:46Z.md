@@ -1,4 +1,4 @@
-# Install Anaconda Python on Windows‣
+# Install Anaconda Python on Windows
 #### Python environment
 
 ---
@@ -8,7 +8,7 @@
 OR on your windows on VMware machine
 
 1. Open "https://www.anaconda.com/products/distribution" and copy link address to download the distruction
-> <img src="https://www.how2shout.com/wp-content/uploads/2020/08/Download-Anaconda-Python-Installer-Linux.png" height=240/>
+> <img src="/static/articles/imgs/Download-Anaconda-Python-Installer-Linux.png" height=240/> ‣
 .
 .
 For exmaple:

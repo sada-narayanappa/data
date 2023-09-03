@@ -1,11 +1,11 @@
 {
    "symbol": "F",
    "name": "Ford Motor Company",
-   "open": 12.119999885559082,
-   "high": 12.18000030517578,
-   "low": 11.899999618530272,
-   "price": 12.110099792480469,
-   "vol": 1154594,
-   "percent_change": 0.8259058863501917,
+   "open": 13.9399995803833,
+   "high": 13.960000038146973,
+   "low": 13.75,
+   "price": 13.755000114440918,
+   "vol": 912233,
+   "percent_change": 3.5509334959915937,
    "trend": "/static/stocks/data/f/trend.png"
 }

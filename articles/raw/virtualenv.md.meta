@@ -1,7 +1,7 @@
 {
-    "csrfmiddlewaretoken": "cY1Lmqw4h1BRtsD3MyzcDHM0qsYax4xURUFPG9wKNnvTLbHew7TsX4B1BMido2Zb",
-    "X-CSRFToken": "cY1Lmqw4h1BRtsD3MyzcDHM0qsYax4xURUFPG9wKNnvTLbHew7TsX4B1BMido2Zb",
-    "auth": "2d70pnc5ma1afyqi4qahyad9ahsiyy49",
+    "csrfmiddlewaretoken": "zAFUZWVRKG7jYh4mXUZHvSVGG5xsvMOKPag3A9K1oO0Fq8jpqGoSyltGoYCeoE7R",
+    "X-CSRFToken": "zAFUZWVRKG7jYh4mXUZHvSVGG5xsvMOKPag3A9K1oO0Fq8jpqGoSyltGoYCeoE7R",
+    "auth": "xam1kdiydo407zvwd5vcadrlj90i5eg9",
     "user": "sada.narayanappa",
     "contents": "/opt/data/data/articles/raw/virtualenv.md",
     "title": "Python Virtual Environment",
