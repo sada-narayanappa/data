@@ -1,0 +1,32 @@
+{
+   "modelClassName": "Link_Model",
+   "projectName": "default__a1.csv__Link_Model",
+   "description": "",
+   "user": "sada",
+   "params": {
+      "datasetName": "default",
+      "trainingData": "/opt/data/tseries/data/default//a1.csv.cfg",
+      "from": "1970-01-01 00:01:00",
+      "to": "1970-01-01 23:15:00",
+      "othparms": "{name : Value}",
+      "e": 0.7,
+      "b": 0.5,
+      "m": 0.1,
+      "finetune": 0
+   },
+   "dstdir": "/opt/data/tseries/models/default__a1.csv__Link_Model/",
+   "ALLDATA": "/opt/data/tseries/models/default__a1.csv__Link_Model/ALLDATA.parquet",
+   "trainingData": "/opt/data/tseries/models/default__a1.csv__Link_Model/TRAINING.parquet",
+   "modelFile": "/opt/data/tseries/models/default__a1.csv__Link_Model/model.txt",
+   "historyFile": "/opt/data/tseries/models/default__a1.csv__Link_Model/history.csv",
+   "buildCommand": "#/opt/data/tseries/models/default__a1.csv__Link_Model/build.sh",
+   "buildScript": "/opt/data/tseries/models/default__a1.csv__Link_Model/build.sh",
+   "buildConfigFile": "/opt/data/tseries/models/default__a1.csv__Link_Model/buildconfig.json",
+   "model_card": "/opt/data/tseries/models/default__a1.csv__Link_Model/modelcard.html",
+   "e": 0.7,
+   "b": 0.5,
+   "m": 0.5,
+   "srcdata": [
+      "/opt/data/tseries/data/default//a1.csv.cfg"
+   ]
+}
