@@ -11,9 +11,9 @@ Each option has increasing amount of housekeeping and extra care but offers incr
 
 I will explain each of the options in short summary. 
 
-## Disadvantage of default python environment
+## Disadvantage of default python environment.‣
 This option is most easiest. Just install python on your system using [1] or 
-[2]. Now, you can install the packages using pip or conda and use the system installation for all your development.
+[2]. Now, you can install the packages using pip or conda and use the system installation for all your development .
 
 The ** advantage ** of this is you can develop without having any additional efforts other than to keep the system installation upto date.
 
@@ -28,9 +28,9 @@ For example, here are some scenarios you can encounter that can make things mess
 
 Enough said. Next immediate easiest way to avoid these conflicts are to use the virtual environment as described next.
 
-## Virtual Environment
+## Virtual Environment 
 
-*(DO NOT USE virtualenv instead use vnev)*
+*(DO NOT USE virtualenv instead use vnev)* 
 
 virtual environment isolates different projects and manage dependencies.
 
@@ -52,6 +52,7 @@ To list all installed python versions
 Then you can use `python3.9`
 
 #### Create virtual environment using venv
+SADA
 
 >\# create virtual environment
 `python -m venv ~/venv/py39 `
@@ -70,5 +71,5 @@ py39
 ## References
 [1] https://realpython.com/installing-python/#how-to-install-python-on-macos
 [2] Anaconda https://www.anaconda.com/products/individual
-[3] https://www.youtube.com/watch?v=N5vscPTWKOk‣
+[3] https://www.youtube.com/watch?v=N5vscPTWKOk
 [4] https://www.youtube.com/watch?v=x9Hd2BmHt1o

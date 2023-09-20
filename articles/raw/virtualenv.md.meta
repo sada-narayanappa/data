@@ -1,9 +1,10 @@
 {
-    "csrfmiddlewaretoken": "zAFUZWVRKG7jYh4mXUZHvSVGG5xsvMOKPag3A9K1oO0Fq8jpqGoSyltGoYCeoE7R",
-    "X-CSRFToken": "zAFUZWVRKG7jYh4mXUZHvSVGG5xsvMOKPag3A9K1oO0Fq8jpqGoSyltGoYCeoE7R",
-    "auth": "xam1kdiydo407zvwd5vcadrlj90i5eg9",
-    "user": "sada.narayanappa",
-    "contents": "/opt/data/data/articles/raw/virtualenv.md",
+    "X_title": "Python Virtual Environment",
+    "file": "",
+    "savein": "blogs/static/blogs/data",
+    "files": [],
+    "filename": "blogs/static/blogs/data/virtualenv.md",
     "title": "Python Virtual Environment",
-    "files": []
+    "user": "sada",
+    "date": "2023-09-20 04:16:39.376372"
 }
