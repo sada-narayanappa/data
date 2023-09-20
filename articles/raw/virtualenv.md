@@ -1,5 +1,39 @@
 # Python Development Environments 
 
+### Install Python On Mac
+> `brew install python@3.9` # OR `brew install python@3.8`
+.
+To list all installed python versions
+	`brew list | grep python`
+.
+**OUTPUT**:  	
+```
+      149:python@3.8
+      150:python@3.9
+```
+.
+Then you can use `python3.9`
+
+#### Create virtual environment using venv
+
+>\# create virtual environment
+`python -m venv ~/venv/py39 `
+\#
+\# active by creating alias
+\#
+`source ~/venv/py39/bin/activate`
+\# OR create alias in your .aliases
+`alias py39='source ~/venv/py39/bin/activate'`
+py39
+\#
+\# To deactivate type
+`deactivate`
+
+
+---
+
+## Details of Python  
+‣
 There are several ways to set up the python development environments:
 
 * Just plain python environment installed on the machine
@@ -9,11 +43,10 @@ There are several ways to set up the python development environments:
 
 Each option has increasing amount of housekeeping and extra care but offers increased level of flexibility and large scale support. Not everyone needs the level of complexity. In the simplest case, virtual environment should do well for individual users. Using the *python* environment at the machine level is most easiest - I use that on my macbook although after this article I will change my practice.
 
-I will explain each of the options in short summary. 
 
-## Disadvantage of default python environment.‣
+## Disadvantage of default python environment
 This option is most easiest. Just install python on your system using [1] or 
-[2]. Now, you can install the packages using pip or conda and use the system installation for all your development .
+[2]. Now, you can install the packages using pip or conda and use the system installation for all your development.
 
 The ** advantage ** of this is you can develop without having any additional efforts other than to keep the system installation upto date.
 
@@ -28,44 +61,11 @@ For example, here are some scenarios you can encounter that can make things mess
 
 Enough said. Next immediate easiest way to avoid these conflicts are to use the virtual environment as described next.
 
-## Virtual Environment 
+## Virtual Environment
 
-*(DO NOT USE virtualenv instead use vnev)* 
+*(DO NOT USE virtualenv instead use vnev)*
 
 virtual environment isolates different projects and manage dependencies.
-
-### Install Python On Mac
-> `brew install python@3.9` # OR `brew install python@3.8`
-.
-.
-To list all installed python versions
-	`brew list | grep python`
-.
-.
-**OUTPUT**:  	
-```
-      148:python@3.10
-      149:python@3.8
-      150:python@3.9
-```
-.
-Then you can use `python3.9`
-
-#### Create virtual environment using venv
-SADA
-
->\# create virtual environment
-`python -m venv ~/venv/py39 `
-\#
-\# active by creating alias
-\#
-`source ~/venv/py39/bin/activate`
-\# OR create alias in your .aliases
-`alias py39='source ~/venv/py39/bin/activate'`
-py39
-\#
-\# To deactivate type
-`deactivate`
 
 ---
 ## References
