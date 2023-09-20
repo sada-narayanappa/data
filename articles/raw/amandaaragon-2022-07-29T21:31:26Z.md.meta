@@ -1,9 +1,10 @@
 {
-    "csrfmiddlewaretoken": "MkC1yq7c7EXll4eu4IP306e6N4wc5xyBhuuDvaYQloT0RTlJCt76gY82unskOdIV",
-    "X-CSRFToken": "MkC1yq7c7EXll4eu4IP306e6N4wc5xyBhuuDvaYQloT0RTlJCt76gY82unskOdIV",
-    "auth": "gonxlzdkcp0zg0drkdf40of990ygldzw",
-    "user": "amandaaragon",
-    "contents": "/opt/data/data/articles/raw/amandaaragon-2022-07-29T21:31:26Z.md",
+    "X_title": "The Many Uses of Drones",
+    "file": "",
+    "savein": "blogs/static/blogs/data",
+    "files": [],
+    "filename": "blogs/static/blogs/data/amandaaragon-2022-07-29T21:31:26Z.md",
     "title": "The Many Uses of Drones",
-    "files": []
+    "user": "megana",
+    "date": "2023-09-20 02:27:10.801888"
 }
