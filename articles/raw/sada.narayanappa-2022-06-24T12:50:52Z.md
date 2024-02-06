@@ -1,11 +1,11 @@
 # Git Github Gitlab
-#### What is git, github, gitlab
+What is git, github, gitlab
 
 ---
 
-# What is Source code control
+# Git is a code management system
 
-It is important to manage your code in terms of history and managing versions and allow multiple prople contribute to the code. It aids in project management.
+It is important to manage your code in terms of history and managing versions and allow multiple prople contribute to the code. It aids in project management.‣
 
 There are different types of version control systems:
 * centralized 
@@ -31,4 +31,6 @@ git config --global user.name  'your-name'
 git config --global user.email 'your-email'
 git config --list # show all git congfiguration
 
----‣
+---
+
+
