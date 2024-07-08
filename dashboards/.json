@@ -1,0 +1,23 @@
+[
+{
+      "id": 2,
+      "x": 0,
+      "y": 0,
+      "w": 5,
+      "h": 5,
+      "config": {
+            "title": " ",
+            "action": "p5js|chart|3D|html|url|showdata",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3"
+            },
+            "p5js": {
+                  "url": "/dash/dash/p5js_mod_test.html/",
+                  "action": "drawSpace(p5); //drawPrettyCircles(p5)"
+            },
+            "data": []
+      }
+},
+//===================
+]

@@ -1,0 +1,67 @@
+[
+{
+      "id": 8,
+      "x": 6,
+      "y": 0,
+      "w": 6,
+      "h": 4,
+      "config": {
+            "title": "NUM PROCESSES",
+            "action": "showdata|chart|3D|html|url",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3"
+            },
+            "data": [
+                  {
+                        "name": "sysinfo",
+                        "url": "/dashboard/system_info/?n=1",
+                        "refresh": 0
+                  }
+            ]
+      }
+},
+//===================
+{
+      "id": 9,
+      "x": 0,
+      "y": 4,
+      "w": 6,
+      "h": 4,
+      "config": {
+            "title": "MAP",
+            "action": "chart|3D|html|url",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3",
+                  "type": "map",
+                  "columns": "lat, lon, altitude"
+            },
+            "data": [
+                  "sysinfo"
+            ]
+      }
+},
+//===================
+{
+      "id": 10,
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 4,
+      "config": {
+            "title": "MAP",
+            "action": "chart|3D|html|url",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3",
+                  "type": "maphc",
+                  "columns": "lat, lon, altitude"
+            },
+            "data": [
+                  "sysinfo"
+            ]
+      }
+},
+//===================
+]
