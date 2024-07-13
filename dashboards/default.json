@@ -1,9 +1,9 @@
 [
 {
       "id": 2,
-      "x": 7,
-      "y": 0,
-      "w": 5,
+      "x": 8,
+      "y": 3,
+      "w": 4,
       "h": 4,
       "config": {
             "title": "NUM PROCESSES",
@@ -26,8 +26,8 @@
       "id": 3,
       "x": 3,
       "y": 0,
-      "w": 4,
-      "h": 4,
+      "w": 5,
+      "h": 14,
       "config": {
             "title": " ",
             "action": "p5js|chart|3D|html|url|showdata",
@@ -46,9 +46,9 @@
 {
       "id": 4,
       "x": 0,
-      "y": 4,
-      "w": 4,
-      "h": 7,
+      "y": 9,
+      "w": 3,
+      "h": 5,
       "config": {
             "title": "MAP",
             "action": "chart|3D|html|url",
@@ -67,7 +67,7 @@
 {
       "id": 5,
       "x": 8,
-      "y": 4,
+      "y": 7,
       "w": 4,
       "h": 7,
       "config": {
@@ -85,7 +85,7 @@
                         "filter": "",
                         "nrows": 100,
                         "refresh": 10,
-                        "timer": 2103
+                        "timer": 483
                   }
             ]
       }
@@ -93,8 +93,8 @@
 //===================
 {
       "id": 6,
-      "x": 4,
-      "y": 4,
+      "x": 8,
+      "y": 0,
       "w": 4,
       "h": 3,
       "config": {
@@ -114,10 +114,10 @@
 //===================
 {
       "id": 7,
-      "x": 4,
-      "y": 7,
-      "w": 4,
-      "h": 4,
+      "x": 0,
+      "y": 4,
+      "w": 3,
+      "h": 5,
       "config": {
             "title": "<span style='font-size: x-small; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
             "action": "chart",

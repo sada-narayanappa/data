@@ -1,75 +1,10 @@
 [
 {
       "id": 2,
-      "x": 7,
-      "y": 0,
-      "w": 5,
-      "h": 4,
-      "config": {
-            "title": "NUM PROCESSES",
-            "action": "showdata|chart|3D|html|url",
-            "refresh": 0,
-            "chart_opts": {
-                  "action": "plot3"
-            },
-            "data": [
-                  {
-                        "name": "sysinfo",
-                        "url": "/dashboard/system_info/?n=1",
-                        "refresh": 0
-                  }
-            ]
-      }
-},
-//===================
-{
-      "id": 3,
-      "x": 3,
-      "y": 0,
-      "w": 4,
-      "h": 4,
-      "config": {
-            "title": " ",
-            "action": "p5js|chart|3D|html|url|showdata",
-            "refresh": 0,
-            "chart_opts": {
-                  "action": "plot3"
-            },
-            "p5js": {
-                  "url": "/dash/dash/p5js_mod_earth_sats.html/",
-                  "action": "drawSpace(p5); //drawPrettyCircles(p5)"
-            },
-            "data": []
-      }
-},
-//===================
-{
-      "id": 4,
       "x": 0,
-      "y": 4,
-      "w": 4,
-      "h": 7,
-      "config": {
-            "title": "MAP",
-            "action": "chart|3D|html|url",
-            "refresh": 0,
-            "chart_opts": {
-                  "action": "plot3",
-                  "type": "maphc",
-                  "columns": "lat, lon, altitude"
-            },
-            "data": [
-                  "sysinfo"
-            ]
-      }
-},
-//===================
-{
-      "id": 5,
-      "x": 8,
-      "y": 4,
-      "w": 4,
-      "h": 7,
+      "y": 0,
+      "w": 6,
+      "h": 6,
       "config": {
             "title": "",
             "action": "chart",
@@ -85,70 +20,9 @@
                         "filter": "",
                         "nrows": 100,
                         "refresh": 10,
-                        "timer": 2103
+                        "timer": 98
                   }
             ]
-      }
-},
-//===================
-{
-      "id": 6,
-      "x": 4,
-      "y": 4,
-      "w": 4,
-      "h": 3,
-      "config": {
-            "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
-            "action": "chart",
-            "chart_opts": {
-                  "action": "plot3",
-                  "type": "bar"
-            },
-            "refresh": 0,
-            "refresh_func": null,
-            "data": [
-                  "data1"
-            ]
-      }
-},
-//===================
-{
-      "id": 7,
-      "x": 4,
-      "y": 7,
-      "w": 4,
-      "h": 4,
-      "config": {
-            "title": "<span style='font-size: x-small; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
-            "action": "chart",
-            "chart_opts": {
-                  "action": "plot3",
-                  "type": "parallel"
-            },
-            "refresh": 0,
-            "refresh_func": null,
-            "data": [
-                  "data1"
-            ]
-      }
-},
-//===================
-{
-      "id": 8,
-      "x": 0,
-      "y": 0,
-      "w": 3,
-      "h": 4,
-      "config": {
-            "title": "<span style='font-size: x-small; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
-            "action": "chart",
-            "chart_opts": {
-                  "action": "plot3",
-                  "type": "pie"
-            },
-            "refresh": 0,
-            "refresh_func": null,
-            "data": []
       }
 },
 //===================

@@ -1,46 +1,48 @@
 [
-  {
-    "id": 2,
-    "x": 0,
-    "y": 0,
-    "w": 6,
-    "h": 4,
-    "config": {
-      "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
-      "action": "chart",
-      "chart_opts": {
-        "action": "plot3",
-        "type": "bar"
-      },
-      "refresh": 0,
-      "refresh_func": null,
-      "data": [
-        "data1"
-      ]
-    }
-  },
-  {
-    "id": 3,
-    "x": 0,
-    "y": 4,
-    "w": 6,
-    "h": 6,
-    "config": {
-      "title": "",
-      "action": "chart",
-      "refresh": 0,
-      "chart_opts": {
-        "action": "plot3"
-      },
-      "data": [
-        {
-          "name": "data1",
-          "data_src": "default/a1.csv.cfg",
-          "cols": "time, ALARM_TOTAL, C01_MV",
-          "filter": "",
-          "nrows": 100
-        }
-      ]
-    }
-  }
+{
+      "id": 3,
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 4,
+      "config": {
+            "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
+            "action": "chart",
+            "chart_opts": {
+                  "action": "plot3",
+                  "type": "bar"
+            },
+            "refresh": 0,
+            "refresh_func": null,
+            "data": [
+                  "data1"
+            ]
+      }
+},
+//===================
+{
+      "id": 4,
+      "x": 0,
+      "y": 4,
+      "w": 6,
+      "h": 6,
+      "config": {
+            "title": "",
+            "action": "chart",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3"
+            },
+            "data": [
+                  {
+                        "name": "data1",
+                        "data_src": "default/a1.csv.cfg",
+                        "cols": "time, ALARM_TOTAL, C01_MV",
+                        "filter": "",
+                        "nrows": 10
+                  }
+            ]
+      }
+},
+//===================
 ]
