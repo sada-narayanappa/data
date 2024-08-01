@@ -1,22 +1,41 @@
 [
 {
-      "id": 9,
-      "x": 0,
+      "id": 2,
+      "x": 5,
       "y": 0,
       "w": 5,
       "h": 6,
       "config": {
-            "title": " ",
-            "action": "p5js|chart|3D|html|url|showdata",
-            "refresh": 0,
+            "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
+            "action": "chart",
             "chart_opts": {
-                  "action": "plot3"
+                  "action": "plot3",
+                  "type": "bar"
             },
-            "p5js": {
-                  "url": "/dash/dash/p5js_mod_earth.html/",
-                  "action": "drawSpace(p5); //drawPrettyCircles(p5)"
+            "refresh": 0,
+            "refresh_func": null,
+            "data": [
+                  "data1"
+            ]
+      }
+},
+//===================
+{
+      "id": 3,
+      "x": 0,
+      "y": 0,
+      "w": 5,
+      "h":11,
+      "config": {
+            "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
+            "action": "html",
+            "chart_opts": {
+                  "action": "plot3",
+                  "type": "bar"
             },
-            "data": []
+            "refresh": 0,
+            "refresh_func": null,
+            "html": "<img src=\"/static/imgs/stream.png\"\" height=\"20%\"/>\n<center>\n<font style='font-size: 100px; padding: 15px;'>${new Date().toISOString().substring( 11, 19)}</font>\n</center>"
       }
 },
 //===================

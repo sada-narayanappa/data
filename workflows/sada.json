@@ -20,6 +20,7 @@
                     "parent": "1",
                     "vertex": "1",
                     "state": "success",
+                    "config": "{\n  type: 'na|process|start', // start\n  run :  '[1,4]',  // run time(secs)\n  nrun: 1  ,        // can run ntimes\n  cmd: 'echo -- `date` >> a.txt'\n}",
                     "mxGeometry": {
                         "x": "130",
                         "y": "100",
@@ -31,10 +32,10 @@
                 {
                     "id": "3",
                     "value": "Process Data!",
-                    "style": "fillColor=#f8cecc;",
+                    "style": "fillColor=#fff;",
                     "parent": "1",
                     "vertex": "1",
-                    "state": "running",
+                    "state": "i",
                     "mxGeometry": {
                         "x": "130",
                         "y": "280",
@@ -46,10 +47,11 @@
                 {
                     "id": "4",
                     "value": "Build Model!",
-                    "style": "fillColor=#f8cecc;",
+                    "style": "fillColor=#fff;",
                     "parent": "1",
                     "vertex": "1",
-                    "state": "running",
+                    "state": "i",
+                    "config": "{\n  type: 'na|process|start', // start\n  run :  '[4,5]',  // run time(secs)\n  nrun: 1  ,       // can run ntimes\n  cmd: 'echo BUILD MODEL >> a.txt'\n}",
                     "mxGeometry": {
                         "x": "650",
                         "y": "80",
@@ -61,11 +63,11 @@
                 {
                     "id": "5",
                     "value": "Send Email! OK",
-                    "style": "fillColor=#d4e1f5;",
+                    "style": "fillColor=#fff;",
                     "parent": "1",
                     "vertex": "1",
                     "text": "SADANNADA",
-                    "state": "success",
+                    "state": "i",
                     "mxGeometry": {
                         "x": "730",
                         "y": "310",
@@ -75,40 +77,14 @@
                     }
                 },
                 {
-                    "id": "6",
-                    "value": "",
-                    "style": "strokeWidth=3;strokeColor=firebrick;",
-                    "parent": "1",
-                    "source": "3",
-                    "target": "2",
-                    "edge": "1",
-                    "state": "running",
-                    "mxGeometry": {
-                        "relative": "1",
-                        "as": "geometry",
-                        "mxPoint": [
-                            {
-                                "x": "480",
-                                "y": "210",
-                                "as": "sourcePoint"
-                            },
-                            {
-                                "x": "480",
-                                "y": "350",
-                                "as": "targetPoint"
-                            }
-                        ]
-                    }
-                },
-                {
                     "id": "7",
                     "value": "",
                     "style": "strokeWidth=1;strokeColor=#808080;",
                     "parent": "1",
-                    "source": "5",
+                    "source": "21",
                     "target": "4",
                     "edge": "1",
-                    "state": "",
+                    "state": "i",
                     "mxGeometry": {
                         "relative": "1",
                         "as": "geometry",
@@ -129,12 +105,12 @@
                 {
                     "id": "8",
                     "value": "",
-                    "style": "strokeWidth=1;strokeColor=#808080;",
+                    "style": "strokeWidth=3;strokeColor=firebrick;",
                     "parent": "1",
                     "source": "11",
                     "target": "5",
                     "edge": "1",
-                    "state": "",
+                    "state": "running",
                     "mxGeometry": {
                         "relative": "1",
                         "as": "geometry"
@@ -143,10 +119,10 @@
                 {
                     "id": "9",
                     "value": "big Process",
-                    "style": "shape=swimlane;startSize=40;fillColor=#d4e1f5;",
+                    "style": "shape=swimlane;startSize=40;fillColor=#fff;",
                     "parent": "1",
                     "vertex": "1",
-                    "state": "success",
+                    "state": "i",
                     "config": "{\n  type: 'na|process|start', // start\n  run :  '10-20',  // run time(secs)\n  nrun: 1         // can run ntimes\n}",
                     "mxGeometry": {
                         "x": "360",
@@ -158,10 +134,12 @@
                 },
                 {
                     "id": "10",
-                    "style": "fillColor=#f8cecc;",
+                    "value": "",
+                    "style": "fillColor=#fff;",
                     "parent": "9",
                     "vertex": "1",
-                    "state": "running",
+                    "state": "i",
+                    "config": "{\n  type: 'na|process|start', // start\n  run :  '[10,20]',  // run time(secs)\n  nrun: 1   ,       // can run ntimes\n  cmd: 'echo LAST EMA MODEL >> a.txt'\n}",
                     "mxGeometry": {
                         "x": "60",
                         "y": "60",
@@ -173,11 +151,12 @@
                 {
                     "id": "11",
                     "value": "System Admin",
-                    "style": "shape=actor;fillColor=#d4e1f5;",
+                    "style": "shape=actor;fillColor=#f8cecc;",
                     "parent": "1",
                     "vertex": "1",
                     "text": "Validate and Verify\u00a0Is Approved?SADA",
-                    "state": "success",
+                    "state": "running",
+                    "config": "{\n  type: 'na|process|start', // start\n  run :  '[10,20]',  // run time(secs)\n  nrun: 1    ,        // can run   cmd: 'echo --SYST `date` >> a.txt'\n}",
                     "mxGeometry": {
                         "x": "410",
                         "y": "140",
@@ -219,7 +198,7 @@
                     "parent": "1",
                     "vertex": "1",
                     "text": "START",
-                    "config": "{\n  type: 'start', // start\n  run :  '10-20',  // run time(secs)\n  nrun: 1         // can run ntimes\n}",
+                    "config": "{\n  type: 'start', // start\n  run :  '[2,3]',  // run time(secs)\n  nrun: 1 ,        // can run ntimes\n  cmd: 'echo `date` > a.txt'\n}",
                     "state": "success",
                     "mxGeometry": {
                         "y": "80",
@@ -259,11 +238,11 @@
                 {
                     "id": "17",
                     "style": "strokeWidth=1;strokeColor=#808080;",
-                    "edge": "1",
                     "parent": "1",
                     "source": "5",
                     "target": "3",
-                    "state": "",
+                    "edge": "1",
+                    "state": "i",
                     "mxGeometry": {
                         "relative": "1",
                         "as": "geometry"
@@ -272,14 +251,56 @@
                 {
                     "id": "19",
                     "style": "strokeWidth=1;strokeColor=#808080;",
-                    "edge": "1",
                     "parent": "1",
                     "source": "5",
                     "target": "10",
-                    "state": "",
+                    "edge": "1",
+                    "state": "i",
                     "mxGeometry": {
                         "relative": "1",
                         "as": "geometry"
+                    }
+                },
+                {
+                    "id": "21",
+                    "value": "",
+                    "style": "shape=actor;fillColor=#fff;",
+                    "vertex": "1",
+                    "config": "{cmd: 'open http://www',\n run:'[2,3]'\n}",
+                    "parent": "1",
+                    "state": "i",
+                    "mxGeometry": {
+                        "x": "720",
+                        "y": "200",
+                        "width": "40",
+                        "height": "30",
+                        "as": "geometry"
+                    }
+                },
+                {
+                    "id": "22",
+                    "value": "",
+                    "style": "strokeWidth=1;strokeColor=#808080;",
+                    "edge": "1",
+                    "state": "i",
+                    "parent": "1",
+                    "source": "5",
+                    "target": "21",
+                    "mxGeometry": {
+                        "relative": "1",
+                        "as": "geometry",
+                        "mxPoint": [
+                            {
+                                "x": "750",
+                                "y": "310",
+                                "as": "sourcePoint"
+                            },
+                            {
+                                "x": "750",
+                                "y": "120",
+                                "as": "targetPoint"
+                            }
+                        ]
                     }
                 }
             ]

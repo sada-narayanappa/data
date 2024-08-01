@@ -2,40 +2,34 @@
   <root>
     <mxCell id="0" style="fillColor=#fff;" state="i" />
     <mxCell id="1" style="fillColor=#fff;" parent="0" state="i" />
-    <mxCell id="2" value="Start" style="fillColor=#d4e1f5;" parent="1" vertex="1" state="success">
+    <mxCell id="2" value="Start" style="fillColor=#d4e1f5;" parent="1" vertex="1" state="success" config="{&#xa;  type: &#39;na|process|start&#39;, // start&#xa;  run :  &#39;[1,4]&#39;,  // run time(secs)&#xa;  nrun: 1  ,        // can run ntimes&#xa;  cmd: &#39;echo -- `date` &gt;&gt; a.txt&#39;&#xa;}">
       <mxGeometry x="130" y="100" width="120" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="3" value="Process Data!" style="fillColor=#f8cecc;" parent="1" vertex="1" state="running">
+    <mxCell id="3" value="Process Data!" style="fillColor=#fff;" parent="1" vertex="1" state="i">
       <mxGeometry x="130" y="280" width="120" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="4" value="Build Model!" style="fillColor=#f8cecc;" parent="1" vertex="1" state="running">
+    <mxCell id="4" value="Build Model!" style="fillColor=#fff;" parent="1" vertex="1" state="i" config="{&#xa;  type: &#39;na|process|start&#39;, // start&#xa;  run :  &#39;[4,5]&#39;,  // run time(secs)&#xa;  nrun: 1  ,       // can run ntimes&#xa;  cmd: &#39;echo BUILD MODEL &gt;&gt; a.txt&#39;&#xa;}">
       <mxGeometry x="650" y="80" width="120" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="5" value="Send Email! OK" style="fillColor=#d4e1f5;" parent="1" vertex="1" text="SADANNADA" state="success">
+    <mxCell id="5" value="Send Email! OK" style="fillColor=#fff;" parent="1" vertex="1" text="SADANNADA" state="i">
       <mxGeometry x="730" y="310" width="120" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="6" value="" style="strokeWidth=3;strokeColor=firebrick;" parent="1" source="3" target="2" edge="1" state="running">
-      <mxGeometry relative="1" as="geometry">
-        <mxPoint x="480" y="210" as="sourcePoint" />
-        <mxPoint x="480" y="350" as="targetPoint" />
-      </mxGeometry>
-    </mxCell>
-    <mxCell id="7" value="" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="5" target="4" edge="1" state="">
+    <mxCell id="7" value="" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="21" target="4" edge="1" state="i">
       <mxGeometry relative="1" as="geometry">
         <mxPoint x="680" y="260" as="sourcePoint" />
         <mxPoint x="680" y="450" as="targetPoint" />
       </mxGeometry>
     </mxCell>
-    <mxCell id="8" value="" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="11" target="5" edge="1" state="">
+    <mxCell id="8" value="" style="strokeWidth=3;strokeColor=firebrick;" parent="1" source="11" target="5" edge="1" state="running">
       <mxGeometry relative="1" as="geometry" />
     </mxCell>
-    <mxCell id="9" value="big Process" style="shape=swimlane;startSize=40;fillColor=#d4e1f5;" parent="1" vertex="1" state="success" config="{&#xa;  type: &#39;na|process|start&#39;, // start&#xa;  run :  &#39;10-20&#39;,  // run time(secs)&#xa;  nrun: 1         // can run ntimes&#xa;}">
+    <mxCell id="9" value="big Process" style="shape=swimlane;startSize=40;fillColor=#fff;" parent="1" vertex="1" state="i" config="{&#xa;  type: &#39;na|process|start&#39;, // start&#xa;  run :  &#39;10-20&#39;,  // run time(secs)&#xa;  nrun: 1         // can run ntimes&#xa;}">
       <mxGeometry x="360" y="400" width="330" height="210" as="geometry" />
     </mxCell>
-    <mxCell id="10" style="fillColor=#f8cecc;" parent="9" vertex="1" state="running">
+    <mxCell id="10" value="" style="fillColor=#fff;" parent="9" vertex="1" state="i" config="{&#xa;  type: &#39;na|process|start&#39;, // start&#xa;  run :  &#39;[10,20]&#39;,  // run time(secs)&#xa;  nrun: 1   ,       // can run ntimes&#xa;  cmd: &#39;echo LAST EMA MODEL &gt;&gt; a.txt&#39;&#xa;}">
       <mxGeometry x="60" y="60" width="100" height="40" as="geometry" />
     </mxCell>
-    <mxCell id="11" value="System Admin" style="shape=actor;fillColor=#d4e1f5;" parent="1" vertex="1" text="Validate and Verify Is Approved?SADA" state="success">
+    <mxCell id="11" value="System Admin" style="shape=actor;fillColor=#f8cecc;" parent="1" vertex="1" text="Validate and Verify Is Approved?SADA" state="running" config="{&#xa;  type: &#39;na|process|start&#39;, // start&#xa;  run :  &#39;[10,20]&#39;,  // run time(secs)&#xa;  nrun: 1    ,        // can run   cmd: &#39;echo --SYST `date` &gt;&gt; a.txt&#39;&#xa;}">
       <mxGeometry x="410" y="140" width="30" height="40" as="geometry" />
     </mxCell>
     <mxCell id="12" value="" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="2" target="11" edge="1" state="">
@@ -44,7 +38,7 @@
         <mxPoint x="730" y="330" as="targetPoint" />
       </mxGeometry>
     </mxCell>
-    <mxCell id="13" value="S" style="shape=ellipse;fillColor=#d4e1f5;" parent="1" vertex="1" text="START" config="{&#xa;  type: &#39;start&#39;, // start&#xa;  run :  &#39;10-20&#39;,  // run time(secs)&#xa;  nrun: 1         // can run ntimes&#xa;}" state="success">
+    <mxCell id="13" value="S" style="shape=ellipse;fillColor=#d4e1f5;" parent="1" vertex="1" text="START" config="{&#xa;  type: &#39;start&#39;, // start&#xa;  run :  &#39;[2,3]&#39;,  // run time(secs)&#xa;  nrun: 1 ,        // can run ntimes&#xa;  cmd: &#39;echo `date` &gt; a.txt&#39;&#xa;}" state="success">
       <mxGeometry y="80" width="40" height="40" as="geometry" />
     </mxCell>
     <mxCell id="14" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="13" target="2" edge="1" state="">
@@ -54,11 +48,20 @@
         <mxPoint x="200" y="120" as="targetPoint" />
       </mxGeometry>
     </mxCell>
-    <mxCell id="17" style="strokeWidth=1;strokeColor=#808080;" edge="1" parent="1" source="5" target="3" state="">
+    <mxCell id="17" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="5" target="3" edge="1" state="i">
       <mxGeometry relative="1" as="geometry" />
     </mxCell>
-    <mxCell id="19" style="strokeWidth=1;strokeColor=#808080;" edge="1" parent="1" source="5" target="10" state="">
+    <mxCell id="19" style="strokeWidth=1;strokeColor=#808080;" parent="1" source="5" target="10" edge="1" state="i">
       <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="21" value="" style="shape=actor;fillColor=#fff;" vertex="1" config="{cmd: &#39;open http://www&#39;,&#xa; run:&#39;[2,3]&#39;&#xa;}" parent="1" state="i">
+      <mxGeometry x="720" y="200" width="40" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="22" value="" style="strokeWidth=1;strokeColor=#808080;" edge="1" state="i" parent="1" source="5" target="21">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="750" y="310" as="sourcePoint" />
+        <mxPoint x="750" y="120" as="targetPoint" />
+      </mxGeometry>
     </mxCell>
   </root>
 </mxGraphModel>

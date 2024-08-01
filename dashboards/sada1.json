@@ -1,10 +1,10 @@
 [
 {
-      "id": 3,
-      "x": 0,
+      "id": 4,
+      "x": 3,
       "y": 0,
-      "w": 6,
-      "h": 4,
+      "w": 9,
+      "h": 3,
       "config": {
             "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
             "action": "chart",
@@ -21,28 +21,46 @@
 },
 //===================
 {
-      "id": 4,
+      "id": 5,
       "x": 0,
-      "y": 4,
-      "w": 6,
-      "h": 6,
+      "y": 0,
+      "w": 3,
+      "h": 9,
       "config": {
-            "title": "",
-            "action": "chart",
-            "refresh": 0,
+            "title": "<span style='font-size: smaller; font-weight: 400px;color: #777;'><u>#USERS LAST MINUTES</u></span>",
+            "action": "html",
             "chart_opts": {
-                  "action": "plot3"
+                  "action": "plot3",
+                  "type": "bar"
             },
-            "data": [
-                  {
-                        "name": "data1",
-                        "data_src": "default/a1.csv.cfg",
-                        "cols": "time, ALARM_TOTAL, C01_MV",
-                        "filter": "",
-                        "nrows": 10
-                  }
-            ]
+            "refresh": 0,
+            "refresh_func": null,
+            "html": "<img src=\"/static/imgs/stream.png\"\" height=\"5%\" style=\"vertical-align:true;\"/>\n<font style='font-size: 3.5em; padding: 15px;'>${new Date().toISOString().substring( 11, 19)}</font>"
       }
+},
+//===================
+{
+      "id": 6,
+      "x": 3,
+      "y": 3,
+      "w": 4,
+      "h": 6
+},
+//===================
+{
+      "id": 7,
+      "x": 7,
+      "y": 3,
+      "w": 5,
+      "h": 3
+},
+//===================
+{
+      "id": 8,
+      "x": 7,
+      "y": 6,
+      "w": 5,
+      "h": 3
 },
 //===================
 ]
