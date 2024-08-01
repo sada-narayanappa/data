@@ -1,0 +1,65 @@
+[
+{
+      "id": 3,
+      "x": 4,
+      "y": 0,
+      "w": 8,
+      "h": 6,
+      "config": {
+            "title": "",
+            "action": "chart",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3"
+            },
+            "data": [
+                  {
+                        "name": "data1",
+                        "data_src": "default/a1.csv.cfg",
+                        "cols": "time, ALARM_TOTAL, C01_MV",
+                        "filter": "",
+                        "nrows": 100,
+                        "refresh": 10,
+                        "timer": 1328
+                  }
+            ]
+      }
+},
+//===================
+{
+      "id": 4,
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 16,
+      "config": {
+            "title": "",
+            "action": "showdata",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3"
+            },
+            "data": [
+                  "data1"
+            ]
+      }
+},
+//===================
+{
+      "id": 5,
+      "x": 4,
+      "y": 6,
+      "w": 8,
+      "h": 10,
+      "config": {
+            "title": "",
+            "action": "html",
+            "refresh": 0,
+            "chart_opts": {
+                  "action": "plot3"
+            },
+            "html": "<table>\n<tr><td>graph </td></tr>\n</table>"
+      }
+},
+//===================
+]

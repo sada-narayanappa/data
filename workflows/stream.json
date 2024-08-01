@@ -1,0 +1,134 @@
+{
+    "mxGraphModel": {
+        "root": {
+            "mxCell": [
+                {
+                    "id": "0",
+                    "style": "fillColor=#fff;",
+                    "state": "i"
+                },
+                {
+                    "id": "1",
+                    "style": "fillColor=#fff;",
+                    "parent": "0",
+                    "state": "i"
+                },
+                {
+                    "id": "2",
+                    "value": "Manage Data Datasets Missions",
+                    "style": "fillColor=#d4e1f5;",
+                    "vertex": "1",
+                    "parent": "1",
+                    "state": "success",
+                    "config": "{\n  type: 'start', // start\n  run :  '[2,6]',  // run time(secs)\n  nrun: 1         // can run ntimes\n}",
+                    "mxGeometry": {
+                        "x": "20",
+                        "y": "60",
+                        "width": "210",
+                        "height": "100",
+                        "as": "geometry"
+                    }
+                },
+                {
+                    "id": "4",
+                    "value": "Create Analysis",
+                    "style": "fillColor=#d4e1f5;",
+                    "vertex": "1",
+                    "parent": "1",
+                    "state": "success",
+                    "mxGeometry": {
+                        "x": "590",
+                        "y": "60",
+                        "width": "180",
+                        "height": "100",
+                        "as": "geometry"
+                    }
+                },
+                {
+                    "id": "5",
+                    "value": "Buiid Models",
+                    "style": "fillColor=#d4e1f5;",
+                    "vertex": "1",
+                    "parent": "1",
+                    "state": "success",
+                    "mxGeometry": {
+                        "x": "320",
+                        "y": "60",
+                        "width": "160",
+                        "height": "100",
+                        "as": "geometry"
+                    }
+                },
+                {
+                    "id": "7",
+                    "value": "",
+                    "style": "strokeWidth=1;strokeColor=#808080;",
+                    "edge": "1",
+                    "parent": "1",
+                    "source": "5",
+                    "target": "4",
+                    "state": "",
+                    "mxGeometry": {
+                        "relative": "1",
+                        "as": "geometry",
+                        "mxPoint": [
+                            {
+                                "x": "400",
+                                "y": "200",
+                                "as": "sourcePoint"
+                            },
+                            {
+                                "x": "530",
+                                "y": "90",
+                                "as": "targetPoint"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "8",
+                    "value": "",
+                    "style": "strokeWidth=1;strokeColor=#808080;",
+                    "edge": "1",
+                    "parent": "1",
+                    "source": "2",
+                    "target": "5",
+                    "state": "",
+                    "mxGeometry": {
+                        "relative": "1",
+                        "as": "geometry"
+                    }
+                },
+                {
+                    "id": "9",
+                    "value": "Deploy Model and monitor alerts",
+                    "style": "fillColor=#d4e1f5;",
+                    "vertex": "1",
+                    "config": "{}",
+                    "parent": "1",
+                    "state": "success",
+                    "mxGeometry": {
+                        "x": "830",
+                        "y": "60",
+                        "width": "200",
+                        "height": "100",
+                        "as": "geometry"
+                    }
+                },
+                {
+                    "id": "10",
+                    "style": "strokeWidth=1;strokeColor=#808080;",
+                    "edge": "1",
+                    "parent": "1",
+                    "source": "4",
+                    "target": "9",
+                    "state": "",
+                    "mxGeometry": {
+                        "relative": "1",
+                        "as": "geometry"
+                    }
+                }
+            ]
+        }
+    }
+}

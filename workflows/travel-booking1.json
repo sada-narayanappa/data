@@ -1,0 +1,577 @@
+{
+    "mxGraphModel": {
+        "root": {
+            "Workflow": {
+                "label": "Travel Booking",
+                "description": "",
+                "href": "",
+                "id": "0",
+                "mxCell": null
+            },
+            "Layer": {
+                "label": "Default Layer",
+                "description": "",
+                "href": "",
+                "id": "1",
+                "mxCell": {
+                    "parent": "0"
+                }
+            },
+            "mxCell": {
+                "id": "2",
+                "value": "Travel Booking",
+                "style": "swimlane;fillColor=#83027F",
+                "parent": "1",
+                "vertex": "1",
+                "connectable": "0",
+                "mxGeometry": {
+                    "x": "30",
+                    "y": "20",
+                    "width": "770",
+                    "height": "370",
+                    "as": "geometry"
+                }
+            },
+            "Edge": [
+                {
+                    "label": "Check Again",
+                    "description": "",
+                    "href": "",
+                    "id": "3",
+                    "mxCell": {
+                        "style": "verticalEdge",
+                        "parent": "2",
+                        "source": "14",
+                        "target": "11",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "relative": "1",
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points",
+                                "mxPoint": {
+                                    "x": "440",
+                                    "y": "30"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "18",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "4",
+                        "target": "5",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "mxPoint": {
+                                "x": "52",
+                                "y": "166",
+                                "as": "sourcePoint"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "19",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "6",
+                        "target": "7",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points",
+                                "mxPoint": {
+                                    "x": "120",
+                                    "y": "250"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "20",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "7",
+                        "target": "16",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "21",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "5",
+                        "target": "8",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "22",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "5",
+                        "target": "9",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "mxPoint": {
+                                "x": "244",
+                                "y": "205",
+                                "as": "sourcePoint"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "23",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "5",
+                        "target": "10",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "mxPoint": {
+                                "x": "234",
+                                "y": "55",
+                                "as": "sourcePoint"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "24",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "10",
+                        "target": "11",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "25",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "12",
+                        "target": "15",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "26",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "8",
+                        "target": "12",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "27",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "11",
+                        "target": "13",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "28",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "13",
+                        "target": "14",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "29",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "9",
+                        "target": "12",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points",
+                                "mxPoint": {
+                                    "x": "570",
+                                    "y": "200"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "30",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "14",
+                        "target": "12",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points",
+                                "mxPoint": {
+                                    "x": "570",
+                                    "y": "130"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "description": "",
+                    "href": "",
+                    "id": "31",
+                    "mxCell": {
+                        "parent": "2",
+                        "source": "15",
+                        "target": "17",
+                        "edge": "1",
+                        "mxGeometry": {
+                            "as": "geometry",
+                            "Array": {
+                                "as": "points"
+                            }
+                        }
+                    }
+                }
+            ],
+            "Symbol": [
+                {
+                    "label": "Symbol",
+                    "description": "",
+                    "href": "",
+                    "style": "symbol;image=/static/mxgraph-js/javascript/examples/editors/images/actor.gif",
+                    "parent": "2",
+                    "id": "4",
+                    "mxCell": {
+                        "style": "symbol;image=/static/mxgraph-js/javascript/examples/editors/images/actor.gif",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "50",
+                            "y": "69",
+                            "width": "32",
+                            "height": "32",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Symbol",
+                    "description": "",
+                    "href": "",
+                    "id": "6",
+                    "mxCell": {
+                        "style": "symbol;image=/static/images/symbols/error.png",
+                        "parent": "5",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "8",
+                            "y": "34",
+                            "width": "32",
+                            "height": "32",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Symbol",
+                    "description": "",
+                    "href": "",
+                    "id": "12",
+                    "mxCell": {
+                        "style": "symbol;image=images/symbols/fork.png",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "550",
+                            "y": "140",
+                            "width": "52",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Reply",
+                    "description": "",
+                    "href": "",
+                    "id": "16",
+                    "mxCell": {
+                        "style": "symbol;image=images/symbols/message_end.png",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "260",
+                            "y": "290",
+                            "width": "32",
+                            "height": "32",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Reply",
+                    "description": "",
+                    "href": "",
+                    "id": "17",
+                    "mxCell": {
+                        "style": "symbol;image=images/symbols/message_end.png",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "720",
+                            "y": "150",
+                            "width": "32",
+                            "height": "32",
+                            "as": "geometry"
+                        }
+                    }
+                }
+            ],
+            "Subprocess": [
+                {
+                    "label": "Check Credit\nCard",
+                    "description": "",
+                    "href": "",
+                    "id": "5",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "92",
+                            "y": "140",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Handle\nFault",
+                    "description": "",
+                    "href": "",
+                    "id": "7",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "162",
+                            "y": "280",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Check Hotel\nReservation",
+                    "description": "",
+                    "href": "",
+                    "id": "8",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "202",
+                            "y": "140",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Check Flight\nReservation",
+                    "description": "",
+                    "href": "",
+                    "id": "9",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "202",
+                            "y": "210",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Data Map",
+                    "description": "",
+                    "href": "",
+                    "id": "10",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "202",
+                            "y": "70",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Check Car\nReservation",
+                    "description": "",
+                    "href": "",
+                    "id": "11",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "302",
+                            "y": "70",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Evaluate\nReservation\nResult",
+                    "description": "",
+                    "href": "",
+                    "id": "13",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "402",
+                            "y": "70",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "label": "Confirmation",
+                    "description": "",
+                    "href": "",
+                    "id": "15",
+                    "mxCell": {
+                        "style": "rounded",
+                        "parent": "2",
+                        "vertex": "1",
+                        "mxGeometry": {
+                            "x": "622",
+                            "y": "140",
+                            "width": "72",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                }
+            ],
+            "Shape": {
+                "label": "",
+                "description": "",
+                "href": "",
+                "id": "14",
+                "mxCell": {
+                    "style": "rhombus",
+                    "parent": "2",
+                    "vertex": "1",
+                    "mxGeometry": {
+                        "x": "504",
+                        "y": "69",
+                        "width": "52",
+                        "height": "51",
+                        "as": "geometry"
+                    }
+                }
+            }
+        }
+    }
+}

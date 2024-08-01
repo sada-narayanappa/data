@@ -1,0 +1,30 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0" style="fillColor=#fff;" state="i" />
+    <mxCell id="1" style="fillColor=#fff;" parent="0" state="i" />
+    <mxCell id="2" value="Manage Data Datasets Missions" style="fillColor=#d4e1f5;" vertex="1" parent="1" state="success" config="{&#xa;  type: &#39;start&#39;, // start&#xa;  run :  &#39;[2,6]&#39;,  // run time(secs)&#xa;  nrun: 1         // can run ntimes&#xa;}">
+      <mxGeometry x="20" y="60" width="210" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="4" value="Create Analysis" style="fillColor=#d4e1f5;" vertex="1" parent="1" state="success">
+      <mxGeometry x="590" y="60" width="180" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="5" value="Buiid Models" style="fillColor=#d4e1f5;" vertex="1" parent="1" state="success">
+      <mxGeometry x="320" y="60" width="160" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="7" value="" style="strokeWidth=1;strokeColor=#808080;" edge="1" parent="1" source="5" target="4" state="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="400" y="200" as="sourcePoint" />
+        <mxPoint x="530" y="90" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="8" value="" style="strokeWidth=1;strokeColor=#808080;" edge="1" parent="1" source="2" target="5" state="">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="9" value="Deploy Model and monitor alerts" style="fillColor=#d4e1f5;" vertex="1" config="{}" parent="1" state="success">
+      <mxGeometry x="830" y="60" width="200" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="10" style="strokeWidth=1;strokeColor=#808080;" edge="1" parent="1" source="4" target="9" state="">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
